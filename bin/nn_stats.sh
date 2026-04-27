@@ -3,7 +3,7 @@
 nn=$1;
 
 # Routers to be exempted from speed tests
-ROUTERS_NO_SPEEDTEST="10 162 713 3959 5916"
+ROUTERS_NO_SPEEDTEST="10 162 713 5916"
 
 function exists_in_list() {
     LIST=$1
