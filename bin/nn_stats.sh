@@ -76,7 +76,7 @@ if (( $reachable == 0 )); then
 else
 
 if exists_in_list "$ROUTERS_NO_SPEEDTEST" "$nn"; then
-  echo "$nn cannot be speed-tested from this tool"
+  echo "$nn is a backbone site and is prohibited from router speed tests to maintain stability. Please test directly on the device off-hours if required"
 else
   echo
   echo ====="Omni Speed Test"=====
